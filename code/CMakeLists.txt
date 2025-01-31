@@ -15,4 +15,4 @@ list(APPEND SOURCES ${STRUCTURAL_SOURCES})
 add_executable(main ${SOURCES})
 
 # Link libraries (if needed)
-target_link_libraries(main creational_lib behavioral_lib structural_lib)
+#target_link_libraries(main creational_lib behavioral_lib structural_lib)

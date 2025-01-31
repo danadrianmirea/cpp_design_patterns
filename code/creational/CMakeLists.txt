@@ -5,4 +5,4 @@ file(GLOB CREATIONAL_SOURCES "*.cpp")
 set(CREATIONAL_SOURCES ${CREATIONAL_SOURCES} PARENT_SCOPE)
 
 # Create a static library from these sources
-add_library(creational_lib ${CREATIONAL_SOURCES})
+#add_library(creational_lib ${CREATIONAL_SOURCES})

@@ -5,4 +5,4 @@ file(GLOB BEHAVIORAL_SOURCES "*.cpp")
 set(BEHAVIORAL_SOURCES ${BEHAVIORAL_SOURCES} PARENT_SCOPE)
 
 # Create a static library from these sources
-add_library(behavioral_lib ${BEHAVIORAL_SOURCES})
+#add_library(behavioral_lib ${BEHAVIORAL_SOURCES})
