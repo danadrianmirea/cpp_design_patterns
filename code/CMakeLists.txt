@@ -1,0 +1,3 @@
+add_subdirectory(creational)
+add_subdirectory(behavioral)
+add_subdirectory(structural)
