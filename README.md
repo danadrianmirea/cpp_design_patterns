@@ -1,1 +1,1 @@
-"# cpp_design_patterns" 
+A repo that I use to implement various design patterns in C++, based on the gang of four book
