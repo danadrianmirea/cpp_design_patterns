@@ -15,6 +15,7 @@
 #include "creational/factory_method.hpp"
 #include "creational/prototype.hpp"
 #include "creational/singleton.hpp"
+#include "structural/adapter.hpp"
 
 int main()
 {
@@ -39,7 +40,10 @@ int main()
 	//demonstrateBuilderPattern();
 	//demonstrateFactoryMethodPattern();
 	//demonstratePrototypePattern();
-	demonstrateSingletonPattern();
+	//demonstrateSingletonPattern();
+	
+	// Test Structural Patterns
+	demonstrateAdapterPattern();
 
 	return 0;
 }
