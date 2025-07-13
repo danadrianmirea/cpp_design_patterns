@@ -10,6 +10,11 @@
 #include "behavioral/strategy.hpp"
 #include "behavioral/template_method.hpp"
 #include "behavioral/visitor.hpp"
+#include "creational/abstract_factory.hpp"
+#include "creational/builder.hpp"
+#include "creational/factory_method.hpp"
+#include "creational/prototype.hpp"
+#include "creational/singleton.hpp"
 
 int main()
 {
@@ -27,7 +32,14 @@ int main()
 	//demonstrateStatePattern();
 	//demonstrateStrategyPattern();
 	//demonstrateTemplateMethodPattern();
-	demonstrateVisitorPattern();
+	//demonstrateVisitorPattern();
+
+	// Test Creational Patterns
+	//demonstrateAbstractFactoryPattern();
+	//demonstrateBuilderPattern();
+	//demonstrateFactoryMethodPattern();
+	//demonstratePrototypePattern();
+	demonstrateSingletonPattern();
 
 	return 0;
 }
