@@ -5,13 +5,6 @@
 #include "behavioral/iterator.hpp"
 #include "behavioral/mediator.hpp"
 
-// Forward declarations
-void demonstrateChainOfResponsibility();
-void demonstrateCommandPattern();
-void demonstrateInterpreterPattern();
-void demonstrateIteratorPattern();
-void demonstrateMediatorPattern();
-
 int main()
 {
 	std::cout << "Design Patterns in C++ - Gang of Four Implementation" << std::endl;
