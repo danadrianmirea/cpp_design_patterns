@@ -9,6 +9,7 @@
 #include "behavioral/state.hpp"
 #include "behavioral/strategy.hpp"
 #include "behavioral/template_method.hpp"
+#include "behavioral/visitor.hpp"
 
 int main()
 {
@@ -25,7 +26,8 @@ int main()
 	//demonstrateObserverPattern();
 	//demonstrateStatePattern();
 	//demonstrateStrategyPattern();
-	demonstrateTemplateMethodPattern();
+	//demonstrateTemplateMethodPattern();
+	demonstrateVisitorPattern();
 
 	return 0;
 }
