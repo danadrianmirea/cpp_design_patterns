@@ -21,6 +21,7 @@
 #include "structural/decorator.hpp"
 #include "structural/facade.hpp"
 #include "structural/flyweight.hpp"
+#include "structural/proxy.hpp"
 
 int main()
 {
@@ -53,7 +54,8 @@ int main()
 	//demonstrateCompositePattern();
 	//demonstrateDecoratorPattern();
 	//demonstrateFacadePattern();
-	demonstrateFlyweightPattern();
+	//demonstrateFlyweightPattern();
+	demonstrateProxyPattern();
 
 	return 0;
 }
