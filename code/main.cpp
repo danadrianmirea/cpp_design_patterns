@@ -8,6 +8,7 @@
 #include "behavioral/observer.hpp"
 #include "behavioral/state.hpp"
 #include "behavioral/strategy.hpp"
+#include "behavioral/template_method.hpp"
 
 int main()
 {
@@ -23,7 +24,8 @@ int main()
 	//demonstrateMementoPattern();
 	//demonstrateObserverPattern();
 	//demonstrateStatePattern();
-	demonstrateStrategyPattern();
+	//demonstrateStrategyPattern();
+	demonstrateTemplateMethodPattern();
 
 	return 0;
 }
