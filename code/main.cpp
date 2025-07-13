@@ -10,19 +10,11 @@ int main()
 	std::cout << "Design Patterns in C++ - Gang of Four Implementation" << std::endl;
 	std::cout << "=====================================================" << std::endl;
 
-	// Test Chain of Responsibility pattern
+	// Test Behavioral Patterns
 	//demonstrateChainOfResponsibility();
-
-	// Test Command pattern
 	//demonstrateCommandPattern();
-
-	// Test Interpreter pattern
 	//demonstrateInterpreterPattern();
-
-	// Test Iterator pattern
-	demonstrateIteratorPattern();
-
-	// Test Mediator pattern
+	//demonstrateIteratorPattern();
 	demonstrateMediatorPattern();
 
 	return 0;
