@@ -18,6 +18,7 @@
 #include "structural/adapter.hpp"
 #include "structural/bridge.hpp"
 #include "structural/composite.hpp"
+#include "structural/decorator.hpp"
 
 int main()
 {
@@ -47,7 +48,8 @@ int main()
 	// Test Structural Patterns
 	//demonstrateAdapterPattern();
 	//demonstrateBridgePattern();
-	demonstrateCompositePattern();
+	//demonstrateCompositePattern();
+	demonstrateDecoratorPattern();
 
 	return 0;
 }
