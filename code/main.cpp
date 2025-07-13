@@ -2,11 +2,13 @@
 #include "behavioral/chain_of_responsibility.hpp"
 #include "behavioral/command.hpp"
 #include "behavioral/interpreter.hpp"
+#include "behavioral/iterator.hpp"
 
 // Forward declarations
 void demonstrateChainOfResponsibility();
 void demonstrateCommandPattern();
 void demonstrateInterpreterPattern();
+void demonstrateIteratorPattern();
 
 int main()
 {
@@ -20,7 +22,10 @@ int main()
 	//demonstrateCommandPattern();
 
 	// Test Interpreter pattern
-	demonstrateInterpreterPattern();
+	//demonstrateInterpreterPattern();
+
+	// Test Iterator pattern
+	demonstrateIteratorPattern();
 
 	return 0;
 }
