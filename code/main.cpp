@@ -20,6 +20,7 @@
 #include "structural/composite.hpp"
 #include "structural/decorator.hpp"
 #include "structural/facade.hpp"
+#include "structural/flyweight.hpp"
 
 int main()
 {
@@ -51,7 +52,8 @@ int main()
 	//demonstrateBridgePattern();
 	//demonstrateCompositePattern();
 	//demonstrateDecoratorPattern();
-	demonstrateFacadePattern();
+	//demonstrateFacadePattern();
+	demonstrateFlyweightPattern();
 
 	return 0;
 }
