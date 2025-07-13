@@ -1,10 +1,12 @@
 #include <iostream>
 #include "behavioral/chain_of_responsibility.hpp"
 #include "behavioral/command.hpp"
+#include "behavioral/interpreter.hpp"
 
 // Forward declarations
 void demonstrateChainOfResponsibility();
 void demonstrateCommandPattern();
+void demonstrateInterpreterPattern();
 
 int main()
 {
@@ -12,10 +14,13 @@ int main()
 	std::cout << "=====================================================" << std::endl;
 
 	// Test Chain of Responsibility pattern
-	demonstrateChainOfResponsibility();
+	//demonstrateChainOfResponsibility();
 
 	// Test Command pattern
-	demonstrateCommandPattern();
+	//demonstrateCommandPattern();
+
+	// Test Interpreter pattern
+	demonstrateInterpreterPattern();
 
 	return 0;
 }
