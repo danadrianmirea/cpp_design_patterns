@@ -1,6 +1,13 @@
 *.pdb
 *.exe
 *.idea
+*.idx
+*.idb
+*.ilk
+*.pdb
+*.idb
+*.ilk
+*.pdb
 
 cmake
 build
