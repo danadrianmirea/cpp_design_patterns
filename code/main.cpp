@@ -16,6 +16,7 @@
 #include "creational/prototype.hpp"
 #include "creational/singleton.hpp"
 #include "structural/adapter.hpp"
+#include "structural/bridge.hpp"
 
 int main()
 {
@@ -43,7 +44,8 @@ int main()
 	//demonstrateSingletonPattern();
 	
 	// Test Structural Patterns
-	demonstrateAdapterPattern();
+	//demonstrateAdapterPattern();
+	demonstrateBridgePattern();
 
 	return 0;
 }
