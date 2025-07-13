@@ -6,6 +6,7 @@
 #include "behavioral/mediator.hpp"
 #include "behavioral/memento.hpp"
 #include "behavioral/observer.hpp"
+#include "behavioral/state.hpp"
 
 int main()
 {
@@ -19,7 +20,8 @@ int main()
 	//demonstrateIteratorPattern();
 	//demonstrateMediatorPattern();
 	//demonstrateMementoPattern();
-	demonstrateObserverPattern();
+	//demonstrateObserverPattern();
+	demonstrateStatePattern();
 
 	return 0;
 }
