@@ -3,12 +3,14 @@
 #include "behavioral/command.hpp"
 #include "behavioral/interpreter.hpp"
 #include "behavioral/iterator.hpp"
+#include "behavioral/mediator.hpp"
 
 // Forward declarations
 void demonstrateChainOfResponsibility();
 void demonstrateCommandPattern();
 void demonstrateInterpreterPattern();
 void demonstrateIteratorPattern();
+void demonstrateMediatorPattern();
 
 int main()
 {
@@ -26,6 +28,9 @@ int main()
 
 	// Test Iterator pattern
 	demonstrateIteratorPattern();
+
+	// Test Mediator pattern
+	demonstrateMediatorPattern();
 
 	return 0;
 }
