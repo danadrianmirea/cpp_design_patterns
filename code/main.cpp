@@ -1,27 +1,5 @@
 #include <iostream>
-#include "behavioral/chain_of_responsibility.hpp"
-#include "behavioral/command.hpp"
-#include "behavioral/interpreter.hpp"
-#include "behavioral/iterator.hpp"
-#include "behavioral/mediator.hpp"
-#include "behavioral/memento.hpp"
-#include "behavioral/observer.hpp"
-#include "behavioral/state.hpp"
-#include "behavioral/strategy.hpp"
-#include "behavioral/template_method.hpp"
-#include "behavioral/visitor.hpp"
-#include "creational/abstract_factory.hpp"
-#include "creational/builder.hpp"
-#include "creational/factory_method.hpp"
-#include "creational/prototype.hpp"
-#include "creational/singleton.hpp"
-#include "structural/adapter.hpp"
-#include "structural/bridge.hpp"
-#include "structural/composite.hpp"
-#include "structural/decorator.hpp"
-#include "structural/facade.hpp"
-#include "structural/flyweight.hpp"
-#include "structural/proxy.hpp"
+#include "allpatterns.hpp"
 
 void TestBehavioralPatterns()
 {
