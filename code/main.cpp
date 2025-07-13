@@ -1,8 +1,10 @@
 #include <iostream>
 #include "behavioral/chain_of_responsibility.hpp"
+#include "behavioral/command.hpp"
 
-// Forward declaration
+// Forward declarations
 void demonstrateChainOfResponsibility();
+void demonstrateCommandPattern();
 
 int main()
 {
@@ -11,6 +13,9 @@ int main()
 
 	// Test Chain of Responsibility pattern
 	demonstrateChainOfResponsibility();
+
+	// Test Command pattern
+	demonstrateCommandPattern();
 
 	return 0;
 }
