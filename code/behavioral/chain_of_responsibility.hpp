@@ -90,4 +90,7 @@ protected:
     }
 };
 
+// Demonstration function
+void demonstrateChainOfResponsibility();
+
 #endif // CHAIN_OF_RESPONSIBILITY_HPP 

@@ -1,5 +1,11 @@
-# Collect all .cpp files in this directory
-file(GLOB CREATIONAL_SOURCES "*.cpp")
+# Explicitly list all .cpp files in this directory
+set(CREATIONAL_SOURCES
+    creational/abstract_factory.cpp
+    creational/builder.cpp
+    creational/factory_method.cpp
+    creational/prototype.cpp
+    creational/singleton.cpp
+)
 
 # Make this variable available to the parent scope
 set(CREATIONAL_SOURCES ${CREATIONAL_SOURCES} PARENT_SCOPE)

@@ -29,32 +29,32 @@ int main()
 	std::cout << "=====================================================" << std::endl;
 
 	// Test Behavioral Patterns
-	//demonstrateChainOfResponsibility();
-	//demonstrateCommandPattern();
-	//demonstrateInterpreterPattern();
-	//demonstrateIteratorPattern();
-	//demonstrateMediatorPattern();
-	//demonstrateMementoPattern();
-	//demonstrateObserverPattern();
-	//demonstrateStatePattern();
-	//demonstrateStrategyPattern();
-	//demonstrateTemplateMethodPattern();
-	//demonstrateVisitorPattern();
+	demonstrateChainOfResponsibility();
+	demonstrateCommandPattern();
+	demonstrateInterpreterPattern();
+	demonstrateIteratorPattern();
+	demonstrateMediatorPattern();
+	demonstrateMementoPattern();
+	demonstrateObserverPattern();
+	demonstrateStatePattern();
+	demonstrateStrategyPattern();
+	demonstrateTemplateMethodPattern();
+	demonstrateVisitorPattern();
 
 	// Test Creational Patterns
-	//demonstrateAbstractFactoryPattern();
-	//demonstrateBuilderPattern();
-	//demonstrateFactoryMethodPattern();
-	//demonstratePrototypePattern();
-	//demonstrateSingletonPattern();
+	demonstrateAbstractFactoryPattern();
+	demonstrateBuilderPattern();
+	demonstrateFactoryMethodPattern();
+	demonstratePrototypePattern();
+	demonstrateSingletonPattern();
 	
 	// Test Structural Patterns
-	//demonstrateAdapterPattern();
-	//demonstrateBridgePattern();
-	//demonstrateCompositePattern();
-	//demonstrateDecoratorPattern();
-	//demonstrateFacadePattern();
-	//demonstrateFlyweightPattern();
+	demonstrateAdapterPattern();
+	demonstrateBridgePattern();
+	demonstrateCompositePattern();
+	demonstrateDecoratorPattern();
+	demonstrateFacadePattern();
+	demonstrateFlyweightPattern();
 	demonstrateProxyPattern();
 
 	return 0;
