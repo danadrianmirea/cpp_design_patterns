@@ -5,6 +5,7 @@
 #include "behavioral/iterator.hpp"
 #include "behavioral/mediator.hpp"
 #include "behavioral/memento.hpp"
+#include "behavioral/observer.hpp"
 
 int main()
 {
@@ -17,7 +18,8 @@ int main()
 	//demonstrateInterpreterPattern();
 	//demonstrateIteratorPattern();
 	//demonstrateMediatorPattern();
-	demonstrateMementoPattern();
+	//demonstrateMementoPattern();
+	demonstrateObserverPattern();
 
 	return 0;
 }
