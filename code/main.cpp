@@ -23,39 +23,45 @@
 #include "structural/flyweight.hpp"
 #include "structural/proxy.hpp"
 
+void TestBehavioralPatterns()
+{
+	//demonstrateChainOfResponsibility();
+	//demonstrateCommandPattern();
+	//demonstrateInterpreterPattern();
+	//demonstrateIteratorPattern();
+	//demonstrateMediatorPattern();
+	//demonstrateMementoPattern();
+	//demonstrateObserverPattern();
+	//demonstrateStatePattern();
+	//demonstrateStrategyPattern();
+	//demonstrateTemplateMethodPattern();
+	//demonstrateVisitorPattern();
+}
+
+void TestCreationalPatterns()
+{
+	//demonstrateAbstractFactoryPattern();
+	//demonstrateBuilderPattern();
+	//demonstrateFactoryMethodPattern();
+	//demonstratePrototypePattern();
+	demonstrateSingletonPattern();
+}
+
+void TestStructuralPatterns()
+{
+	//demonstrateAdapterPattern();
+	//demonstrateBridgePattern();
+	//demonstrateCompositePattern();
+	//demonstrateDecoratorPattern();
+	//demonstrateFacadePattern();
+	//demonstrateFlyweightPattern();
+	//demonstrateProxyPattern();
+}
+
 int main()
 {
-	std::cout << "Design Patterns in C++ - Gang of Four Implementation" << std::endl;
-	std::cout << "=====================================================" << std::endl;
-
-	// Test Behavioral Patterns
-	demonstrateChainOfResponsibility();
-	demonstrateCommandPattern();
-	demonstrateInterpreterPattern();
-	demonstrateIteratorPattern();
-	demonstrateMediatorPattern();
-	demonstrateMementoPattern();
-	demonstrateObserverPattern();
-	demonstrateStatePattern();
-	demonstrateStrategyPattern();
-	demonstrateTemplateMethodPattern();
-	demonstrateVisitorPattern();
-
-	// Test Creational Patterns
-	demonstrateAbstractFactoryPattern();
-	demonstrateBuilderPattern();
-	demonstrateFactoryMethodPattern();
-	demonstratePrototypePattern();
-	demonstrateSingletonPattern();
-	
-	// Test Structural Patterns
-	demonstrateAdapterPattern();
-	demonstrateBridgePattern();
-	demonstrateCompositePattern();
-	demonstrateDecoratorPattern();
-	demonstrateFacadePattern();
-	demonstrateFlyweightPattern();
-	demonstrateProxyPattern();
-
+	//TestBehavioralPatterns();
+	TestCreationalPatterns();
+	//TestStructuralPatterns();
 	return 0;
 }
