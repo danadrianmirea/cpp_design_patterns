@@ -19,6 +19,7 @@
 #include "structural/bridge.hpp"
 #include "structural/composite.hpp"
 #include "structural/decorator.hpp"
+#include "structural/facade.hpp"
 
 int main()
 {
@@ -49,7 +50,8 @@ int main()
 	//demonstrateAdapterPattern();
 	//demonstrateBridgePattern();
 	//demonstrateCompositePattern();
-	demonstrateDecoratorPattern();
+	//demonstrateDecoratorPattern();
+	demonstrateFacadePattern();
 
 	return 0;
 }
